@@ -78,7 +78,7 @@ const NewArrivals = () => {
 
       {/* New arrivals header section */}
       <div className="grid grid-cols-12 gap-5 mt-[100px]">
-        <div className="flex flex-col items-center col-start-1 col-end-13">
+        <div className="flex flex-col items-center col-start-1 col-end-13 font-normal">
           <h1>New Arrivals</h1>
           <p className="text-center mt-[25px]">
             Here’s some of our new arrivals products people are in love with.

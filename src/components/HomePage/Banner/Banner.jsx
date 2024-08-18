@@ -20,7 +20,7 @@ const Banner = () => {
       <Swiper
         speed={1000}
         autoplay={{
-          delay: 50000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         navigation={true}
@@ -53,7 +53,7 @@ const Banner = () => {
                   So soft you don't want to take it off.
                 </p>
                 <button
-                  onClick={() => navigate("/men")}
+                  
                   className="block w-[200px] h-[55px] left-[10%] bg-secondary text-primary text-[12px] font-[600] mt-[50px] rounded-[30px]"
                 >
                   EXPLORE NOW

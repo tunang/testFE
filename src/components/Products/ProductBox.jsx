@@ -106,7 +106,7 @@ const ProductBox = ({ product, index, productIndex, setProductIndex }) => {
         />
 
         <AnimatePresence>
-          {/* {index === productIndex ? ( */}
+       
             <div className="absolute flex flex-col gap-[3px] top-[5%] right-[5%]">
               <motion.button
                 variants={buttonVariants}
@@ -146,15 +146,9 @@ const ProductBox = ({ product, index, productIndex, setProductIndex }) => {
 
               
             </div>
-          {/* ) : (
-            ""
-          )} */}
+          
         </AnimatePresence>
-        {/* <img
-          className="relative lg:min-h-[440px] w-full object-cover overflow-hidden cursor-pointer rounded-[10px] "
-          src={product.thumbnail}
-          alt=""
-        /> */}
+       
         <div className="absolute flex flex-col gap-[3px] top-[5%] left-[7%]">
           {product.isSoldOut && (
             <p className="w-fit text-[13px] bg-senary  text-primary px-[10px] py-[4px] rounded-full">
@@ -233,15 +227,15 @@ const ProductBox = ({ product, index, productIndex, setProductIndex }) => {
 
         {product.salePrice ? (
           <div className="flex gap-1">
-            <p className="text-[14px] text-quaternary font-medium mt-[8px]">
+            <p className="text-[14px] text-quaternary font-[600] mt-[8px]">
               ${product.salePrice.toFixed(2)}
             </p>
-            <p className="text-[14px] text-senary font-medium mt-[8px] line-through">
+            <p className="text-[14px] text-senary font-[600] mt-[8px] line-through">
               ${product.price.toFixed(2)}
             </p>
           </div>
         ) : (
-          <p className="text-[14px] font-medium mt-[8px]">
+          <p className="text-[14px] font-[600] mt-[8px]">
             ${product.price.toFixed(2)}
           </p>
         )}

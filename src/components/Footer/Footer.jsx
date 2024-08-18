@@ -69,7 +69,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="hidden md:block col-span-12 md:col-span-6 xl:col-span-2">
+          <div className="hidden md:block col-span-12 md:col-span-6 xl:col-span-2 mt-[20px] lg:mt-0">
             <li className="list-none text-[14px] font-semibold text-secondary uppercase">
               Hot Categories
             </li>
@@ -80,7 +80,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="hidden md:block col-span-12 md:col-span-6 xl:col-span-2">
+          <div className="hidden md:block col-span-12 md:col-span-6 xl:col-span-2 mt-[20px] lg:mt-0">
             <li className=" list-none text-[14px] font-semibold text-secondary  uppercase">
               Customer Service
             </li>
@@ -94,7 +94,7 @@ const Footer = () => {
           {/* Accordian footer */}
           <Accordian />
 
-          <div className="col-span-12 xl:col-span-4 flex flex-col border-t lg:border-none border-senary pt-[20px] lg:pt-0">
+          <div className="col-span-12 xl:col-span-4 flex flex-col border-t lg:border-none border-senary pt-[20px] lg:pt-0 mt-[20px] lg:mt-[0px]">
             <p className="overflow-hidden font-semibold text-[14px] text-secondary uppercase">
               Sign Up to Newsletter
             </p>
