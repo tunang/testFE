@@ -14,7 +14,7 @@ const FeaturedCollections = () => {
         </div>
 
         {/* Collections section */}
-        <div className="col-span-12 grid grid-cols-2 grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 grid-flow-col gap-[20px] lg:gap-[30px] mt-[40px]">
+        <div className="col-span-12 grid grid-cols-2 grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 grid-flow-col gap-[20px] lg:gap-[30px] mt-[40px]">
             <div className='relative row-span-2'>
                 <img className='object-fit h-full' src={clothingImage} alt="" />
                 <button className='absolute bottom-[8px] left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary text-[16px] font-[600] w-[120px] h-[40px] lg:w-[160px] lg:h-[50px] rounded-[30px]'>Clothing</button>
