@@ -4,7 +4,7 @@ import newArr3 from "../../../images/newArrivals/newArr3.png";
 import newArr4 from "../../../images/newArrivals/newArr4.png";
 
 import { FaChevronRight, FaChevronLeft } from "react-icons/fa6";
-
+import { FaAngleDown } from "react-icons/fa6";
 import { useState, useRef } from "react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -106,8 +106,8 @@ const NewArrivals = () => {
 
       <div className="">
         <div className="lg:hidden flex justify-center items-center  mt-[20px] gap-[10px]">
-          <div ref={prevRef} ><FaChevronLeft className="h-[40px] w-[40px] text-center border-2 border-senary rounded-full p-[6px]"/></div>
-          <div ref={nextRef} ><FaChevronRight className="h-[40px] w-[40px] text-center border-2 border-senary rounded-full p-[6px]"/></div>
+          <div ref={prevRef} ><FaChevronLeft className="h-[40px] w-[40px] text-center border border-senary rounded-full p-[8px]"/></div>
+          <div ref={nextRef} ><FaChevronRight className="h-[40px] w-[40px] text-center border border-senary rounded-full p-[8px]"/></div>
         </div>
         <Swiper
           speed={800}

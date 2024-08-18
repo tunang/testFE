@@ -19,7 +19,7 @@ const customerServiceTitle = [
 const Accordian = () => {
   return (
     <>
-      <div className="md:hidden col-span-12 md:col-span-6 xl:col-span-2 collapse collapse-plus">
+      <div className="md:hidden col-span-12 md:col-span-6 xl:col-span-2 collapse collapse-plus border-t lg:border-none border-senary rounded-none mt-[20px]">
         <input type="radio" name="my-accordion-3" defaultChecked />
         <div className="collapse-title list-none text-[14px] font-semibold text-secondary uppercase pl-0">
           Hot Categories
@@ -31,7 +31,7 @@ const Accordian = () => {
         </div>
       </div>
 
-      <div className="md:hidden col-span-12 md:col-span-6 xl:col-span-2 collapse collapse-plus">
+      <div className="md:hidden col-span-12 md:col-span-6 xl:col-span-2 collapse collapse-plus border-t lg:border-none border-senary rounded-none">
         <input type="radio" name="my-accordion-3" defaultChecked />
         <div className="collapse-title list-none text-[14px] font-semibold text-secondary uppercase pl-0">
         Customer Service

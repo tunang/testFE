@@ -15,7 +15,7 @@ import pay5 from "../../images/payment/bg-4.png";
 import pay6 from "../../images/payment/bg-5.png";
 import pay7 from "../../images/payment/bg-6.png";
 import Accordian from "./Accordian";
-
+import { FaAngleDown } from "react-icons/fa6";
 const socialIcons = [instaIcon, tiktokIcon, ytbIcon, xIcon, fbIcon];
 const paymentIcons = [pay1, pay2, pay3, pay4, pay5, pay6, pay7];
 const hotCataTitles = [
@@ -44,7 +44,7 @@ const Footer = () => {
       <div className=" overflow-hidden border-t-2 ">
         <div className="grid grid-cols-12 lg:gap-10 px-[20px] lg:px-[255px] mt-[100px]">
           {/* Col 1 */}
-          <div className="col-span-12 xl:col-span-4 flex flex-col">
+          <div className="col-span-12 xl:col-span-4 flex flex-col ">
             {/* Logo */}
             <img className="w-[92px] h-[20px]" src={logo} alt="" />
 
@@ -94,7 +94,7 @@ const Footer = () => {
           {/* Accordian footer */}
           <Accordian />
 
-          <div className="col-span-12 xl:col-span-4 flex flex-col">
+          <div className="col-span-12 xl:col-span-4 flex flex-col border-t lg:border-none border-senary pt-[20px] lg:pt-0">
             <p className="overflow-hidden font-semibold text-[14px] text-secondary uppercase">
               Sign Up to Newsletter
             </p>
@@ -119,11 +119,11 @@ const Footer = () => {
       </div>
 
       {/* Below footer section */}
-      <div className="border-t-2 mx-[20px] lg:mx-[255px] mt-[80px]">
+      <div className="border-t-2 mx-[20px] lg:mx-[255px] mt-[80px] ">
         <div className="grid grid-cols-4 xl:grid-cols-12 lg:gap-10 my-[35px] justify-items-center xl:justify-items-start">
           <div className="col-span-4 flex gap-[20px]">
-            <p className="text-senary">English</p>
-            <p className="text-senary">United Stated (USD $)</p>
+            <p className="text-senary">English <FaAngleDown className="inline-block"/></p>
+            <p className="text-senary">United Stated (USD $) <FaAngleDown className="inline-block"/></p>
           </div>
 
           <div className="col-span-4 flex gap-[20px] mt-[10px] lg:mt-[0px]">
