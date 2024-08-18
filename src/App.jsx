@@ -11,7 +11,7 @@ import "./App.css";
 import BottomNavBar from "./components/NavBar/BottomNavBar";
 
 const AppLayout = () => (
-  <div className="min-h-screen flex flex-col">
+  <div className="min-h-screen flex flex-col bg-primary">
     <NavBar />
     <div className="mt-[85px] lg:mt-[70px] mx-[20px] lg:mx-[255px]">
       <Outlet />
