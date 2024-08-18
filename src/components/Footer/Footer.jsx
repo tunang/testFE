@@ -14,6 +14,11 @@ import pay4 from "../../images/payment/bg-3.png";
 import pay5 from "../../images/payment/bg-4.png";
 import pay6 from "../../images/payment/bg-5.png";
 import pay7 from "../../images/payment/bg-6.png";
+
+import shopIcon1 from '../../images/shopIcon/icon.png'
+import shopIcon2 from '../../images/shopIcon/logo.png'
+
+
 import Accordian from "./Accordian";
 import { FaAngleDown } from "react-icons/fa6";
 const socialIcons = [instaIcon, tiktokIcon, ytbIcon, xIcon, fbIcon];
@@ -66,6 +71,12 @@ const Footer = () => {
                   </div>
                 );
               })}
+            </div>
+
+            <div className="flex align-middle items-center gap-[6px] mt-[25px]">
+              <img className="w-[36px] h-[36px]" src={shopIcon1} alt="" />
+              <p className="text-senary">Follow on</p>
+              <img className="w-[40px] h-[16px]" src={shopIcon2} alt="" />
             </div>
           </div>
 

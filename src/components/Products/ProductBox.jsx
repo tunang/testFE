@@ -227,15 +227,15 @@ const ProductBox = ({ product, index, productIndex, setProductIndex }) => {
 
         {product.salePrice ? (
           <div className="flex gap-1">
-            <p className="text-[14px] text-quaternary font-[600] mt-[8px]">
+            <p className="text-[14px] text-quaternary font-[500] mt-[8px]">
               ${product.salePrice.toFixed(2)}
             </p>
-            <p className="text-[14px] text-senary font-[600] mt-[8px] line-through">
+            <p className="text-[14px] text-senary font-[500] mt-[8px] line-through">
               ${product.price.toFixed(2)}
             </p>
           </div>
         ) : (
-          <p className="text-[14px] font-[600] mt-[8px]">
+          <p className="text-[14px] font-[500] mt-[8px]">
             ${product.price.toFixed(2)}
           </p>
         )}

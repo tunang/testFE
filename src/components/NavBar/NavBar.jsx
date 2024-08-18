@@ -178,7 +178,7 @@ const NavBar = () => {
                     onClick={item.action}
                     className="flex items-center cursor-pointer mr-[30px] "
                   >
-                    <p className="text-secondary font-semibold"  >{item.label}</p>
+                    <p className="text-secondary font-medium"  >{item.label}</p>
                     <p className="text-secondary ml-[5px]">{item?.icon}</p>
                   </div>
                 );

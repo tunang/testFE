@@ -23,7 +23,7 @@ export default {
     },
     extend: {
       fontFamily:{
-        poppins: ['Poppins', 'sans-serif'],
+        poppins: ['Jost', 'sans-serif'],
       },
       colors:{
         primary: '#FFFFFF ', 
