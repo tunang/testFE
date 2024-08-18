@@ -9,6 +9,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import "./App.css";
 import BottomNavBar from "./components/NavBar/BottomNavBar";
+import RightSideIcons from "./components/RightSideIcons/RightSideIcons";
 
 const AppLayout = () => (
   <div className="min-h-screen flex flex-col bg-primary">
@@ -20,6 +21,7 @@ const AppLayout = () => (
       <Footer />
     </div>
       <BottomNavBar />
+      <RightSideIcons />
   </div>
 );
 
